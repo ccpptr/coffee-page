@@ -1,6 +1,7 @@
 * {
     margin: 0px;
     font-family: 'Josefin Sans', sans-serif;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
 
 }
 
@@ -170,5 +171,77 @@ main p {
 }
 
 /* ******************************************* */
-/* **********ARTICLE***************** */
+/* **********QUOTE***************** */
 /* ******************************************* */
+article {
+    background-color: #e5e7eb;
+}
+
+.quote {
+    margin: 100px auto;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #2a374b;
+    font-weight: lighter;
+}
+
+.quote-sign {
+    align-self: flex-end;
+    font-size: 24px;
+    font-weight: bolder;
+    color: #2a374b;
+}
+
+/* ******************************************* */
+/* **********SIGN UP BAR**************** */
+/* ******************************************* */
+.signup {
+    display: flex;
+    margin: 100px auto;
+    background-color: #2273f7;
+    border-radius: 10px;
+    padding: 50px 100px;
+    width: 75%;
+    box-sizing: border-box;
+    justify-content: space-around;
+
+}
+
+.signup-text {
+    color: #e5e7eb;
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 32px;
+}
+
+.b2 {
+    background-color: #2273f7;
+    color: #f9faf8;
+    font-size: 18px;
+    width: 125px;
+    height: 50px;
+    font-weight: bold;
+    border: 2px solid;
+    border-radius: 10px;
+}
+
+/* ******************************************* */
+/* *********************FOOTER**************** */
+/* ******************************************* */
+footer {
+    background-color: #1f2937;
+    text-align: center;
+    color: #f9faf8;
+    font-size: 18px;
+    padding: 40px;
+}
